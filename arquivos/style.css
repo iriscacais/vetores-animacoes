@@ -27,6 +27,47 @@ body {
     animation: lett-tracado 5s ease-in-out forwards 1s;
 }
 
+.coqueiro {
+    .s0 { fill: #6dbe45 } 
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    width: 50%;
+    padding: 20px;
+    margin: 20px;
+}
+
+h1, h2 {
+    font-family:  'Pacifico', cursive;
+    color: #BE253F;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    color: #484848;
+    font-size: 1em;
+}
+
+.container-cards  {
+    width: 60%;
+    display: flex;
+    align-self: center;
+}
+.section-dicas {
+    display: flex;
+    flex-direction: column;
+}
 @keyframes lett-preenchimento {
     to {
         fill:#BE253F

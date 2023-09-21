@@ -1,7 +1,13 @@
 <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1456 580" width="1456" height="580">
 	<title>lett-titulo-ai</title>
 	<style>
-		.s0 { fill: #000000 } 
+		.s0 { fill: #000000 }
+
+		@keyframes lett-preenchimento {
+   			 to {
+       			 fill:#BE253F
+    		}
+}
 	</style>
 	<g id="lettering">
 		<g id="&lt;Group&gt;">
