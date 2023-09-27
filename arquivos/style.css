@@ -59,6 +59,10 @@ p {
     font-size: 1em;
 }
 
+.div-test {
+    height: 500px;
+}
+
 .container-cards  {
     width: 60%;
     display: flex;
@@ -68,6 +72,19 @@ p {
     display: flex;
     flex-direction: column;
 }
+
+.lett-footer {
+    width: 60%;
+    opacity: 0.5;
+    position: absolute;
+    left: 20%;
+    margin-top: 20%;
+}
+
+.footer-infos {
+    text-align: center;
+}
+
 @keyframes lett-preenchimento {
     to {
         fill:#BE253F
